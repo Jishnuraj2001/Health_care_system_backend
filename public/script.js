@@ -3,7 +3,7 @@ const Peer=require("peer");
 const videoGrid = document.getElementById("video_grid");
 const myPeer = new Peer(undefined, {
     host: "/",
-    port: "3500",
+    port: "3001",
 });
 
 const myVideo = document.createElement("video");
